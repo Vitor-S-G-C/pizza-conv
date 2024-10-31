@@ -1,0 +1,50 @@
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f9;
+ background-image: url(*);/*Coloque uma imgem de fundo aqui*/
+}
+
+
+#app {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+.yes {
+  background-color: #4caf50;
+}
+.no {
+  background-color: #f44336;
+}
+.result {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+}
+@media screen and (min-width: 800px) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
